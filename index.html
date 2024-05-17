@@ -22,7 +22,7 @@
                     <p class="header__text-expert">Эксперт в области <br>ипотечного кредитования</p>
                     <div class="header__location">
                         <img loading="lazy" src="images/icon__location.svg" alt="">
-                        <p>Москва</p>
+                        <a href="#">Москва</a>
                     </div>
                 </div>
                 <div class="header__header-contacts __header-contacts">
@@ -54,8 +54,8 @@
             </div>
             <div class="header__nav-block">
                 <nav class="header__nav">
-                    <div class="header__link nav-link__additional">О компании  
-                        <img loading="lazy" src="images/arrow-down.svg" alt="">
+                    <div class="header__link nav-link__additional" role="button" aria-label="пункт меню с дополнительными подпунктами">
+                        <button>О компании <img loading="lazy" src="images/arrow-down.svg" alt="" aria-hidden="true"></button>
                         <div class="additional dnone">
                             <a href="#">Link</a>
                             <a href="#">Link</a>
@@ -66,8 +66,8 @@
                         </div>
                     </div>
                     <a class="header__link" href="#">Блог</a>
-                    <div class="header__link nav-link__additional">Ипотека 
-                        <img loading="lazy" src="images/arrow-down.svg" alt="">
+                    <div class="header__link nav-link__additional" aria-label="пункт меню с дополнительными подпунктами">
+                        <button>Ипотека <img loading="lazy" src="images/arrow-down.svg" alt="" aria-hidden="true"></button> 
                         <div class="additional dnone">
                             <a href="#">Link</a>
                             <a href="#">Link</a>
@@ -87,7 +87,7 @@
             </div>
         </div>
     </header>
-    <section class="header__menu header--adapted" aria-hidden="true">
+    <div class="header__menu header--adapted" aria-hidden="true">
         <div class="__logo-block">
             <a href="index.html">
                 <img loading="lazy" src="images/header-logo.webp" alt="logo">
@@ -101,9 +101,9 @@
         </div>
         <div class="header__nav-block">
             <nav class="header__nav">
-                <div class="header__link header__link-add">О компании  
-                    <img loading="lazy" src="images/arrow-down.svg" alt="">
-                    <div class="additional">
+                <div class="header__link header__link-add" aria-label="пункт меню с дополнительными подпунктами">
+                    <button>О компании <img loading="lazy" src="images/arrow-down.svg" alt="" aria-hidden="true"></button>  
+                    <div class="additional vis0">
                         <a href="#">Link</a>
                         <a href="#">Link</a>
                         <a href="#">Link</a>
@@ -113,9 +113,9 @@
                     </div>
                 </div>
                 <a class="header__link" href="#">Блог</a>
-                <div class="header__link header__link-add">Ипотека 
-                    <img loading="lazy" src="images/arrow-down.svg" alt="">
-                    <div class="additional">
+                <div class="header__link header__link-add" aria-label="пункт меню с дополнительными подпунктами">
+                    <button>Ипотека <img loading="lazy" src="images/arrow-down.svg" alt="" aria-hidden="true"></button> 
+                    <div class="additional vis0">
                         <a href="#">Link</a>
                         <a href="#">Link</a>
                         <a href="#">Link</a>
@@ -160,7 +160,7 @@
         <button class="burger__cross" aria-label="кнопка закрытия меню хедера">
             <img loading="lazy" src="images/cross.svg" alt="крестик закрытия меню">
         </button>
-    </section>
+    </div>
 <main class="main">
     <section class="container ipo-simple" aria-label="блок главное о компании">
         <div class="ipo-simple__main-part">
@@ -180,7 +180,7 @@
                         <p class="lh20-8"><img loading="lazy" src="images/icon__check.svg" alt="иконка чека для пункта">Кредитование бизнеса</p>
                     </div>
                 </div>
-                <button class="btn btn--red">Получить консультацию</button>
+                <button class="btn btn--red" tabindex="0">Получить консультацию</button>
             </div>
             <img loading="lazy" class="ipo-simple__svg-1" src="images/vector-1.svg" alt="" aria-hidden="true">
             <img loading="lazy" class="ipo-simple__women-img" src="images/img__women-1.webp" alt="фото сотрудниц компании">
@@ -208,42 +208,42 @@
         <h2 class="h2">Полный спектр услуг</h2>
         <p class="h2--extra">От подбора недвижимости мечты до получения ключей</p>
         <div class="content services__cards" aria-label="блок с карточками">
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-1.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Помощь в получении ипотеки</p>
                     <a class="arrow-link" href="#">Подробнее<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-2.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Подбор новостроек</p>
                     <a class="arrow-link" href="#">Подробнее<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-3.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Подбор новостроек</p>
                     <a class="arrow-link" href="#">Подробнее<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-4.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Рефинансирование кредитов</p>
                     <a class="arrow-link" href="#">Подробнее<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-5.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Кредит под залог недвижимости</p>
                     <a class="arrow-link" href="#">Подробнее<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
-            <div class="services__card" aria-label="карточка преимущества компании">
+            <div class="services__card" tabindex="0" aria-label="карточка преимущества компании">
                 <img loading="lazy" class="services__card-img" src="images/img__services-6.webp" alt="изображение к карточке сервиса">
                 <div class="services__card-info">
                     <p class="lh20-8">Инвестиции в недвижимость</p>
@@ -257,6 +257,7 @@
         <p class="h2--extra"><span class="red-color">98%</span> наших клиентов получили одобрение</p>
         <div class="content helping__reviews">
             <div class="helping__review" aria-label="карточка отзыва">
+                <button class="helping__review-upper-btn"></button>
                 <div class="helping__review-main">
                     <div class="helping__author">
                         <img loading="lazy" src="images/img__avatar-1.webp" alt="аватар пользователя">
@@ -284,11 +285,12 @@
                             <p class="lh20-8">Сумма кредита: <span class="red-color">2 300 000руб.</span></p>
                         </div>
                     </div>
-                    <a class="arrow-link" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
+                    <a class="arrow-link review-read-more vis0" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
     
             <div class="helping__review helping__closed" aria-label="карточка отзыва">
+                <button class="helping__review-upper-btn"></button>
                 <div class="helping__review-main">
                     <div class="helping__author">
                         <img loading="lazy" src="images/img__avatar-2.webp" alt="аватар пользователя">
@@ -314,11 +316,12 @@
                             <p class="lh20-8">Сумма кредита: <span class="red-color">2 100 000руб.</span></p>
                         </div>
                     </div>
-                    <a class="arrow-link" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
+                    <a class="arrow-link review-read-more vis0" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
     
             <div class="helping__review helping__closed" aria-label="карточка отзыва">
+                <button class="helping__review-upper-btn"></button>
                 <div class="helping__review-main">
                     <div class="helping__author">
                         <img loading="lazy" src="images/img__avatar-3.webp" alt="аватар пользователя">
@@ -344,7 +347,7 @@
                             <p class="lh20-8">Сумма ипотеки: <span class="red-color">2 500 000руб.</span></p>
                         </div>
                     </div>
-                    <a class="arrow-link" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
+                    <a class="arrow-link review-read-more vis0" href="#">Больше кейсов<img loading="lazy" src="images/icon__link-arrow.svg" alt="иконка стрелочки у ссылки" aria-label="ссылка на подробности"></a>
                 </div>
             </div>
         </div>
@@ -368,10 +371,10 @@
             </blockquote>
             <div class="leader__socials">
                 <div class="leader__socials-btns __socials--block">
-                    <button class="btn socials__btn">
+                    <button class="btn socials__btn" aria-label="кнопка перенаправления в телеграм">
                         <svg width="23" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.354 8.15s9.765-4.113 13.152-5.562C15.804 2.01 20.207.155 20.207.155s2.032-.81 1.863 1.159c-.056.811-.508 3.65-.96 6.72-.677 4.345-1.41 9.095-1.41 9.095s-.114 1.332-1.073 1.564c-.96.232-2.54-.81-2.823-1.043-.226-.173-4.233-2.78-5.7-4.055-.396-.347-.848-1.042.056-1.854a218.235 218.235 0 005.927-5.793c.677-.695 1.354-2.317-1.468-.347-4.008 2.838-7.96 5.503-7.96 5.503s-.902.58-2.596.058C2.37 10.641.394 9.946.394 9.946s-1.355-.87.96-1.796z" fill="#D72537"/></svg>
                     </button>
-                    <button class="btn socials__btn">
+                    <button class="btn socials__btn" aria-label="кнопка перенаправления в ватсап">
                         <svg width="24" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 24.111l1.722-6.402A11.84 11.84 0 014.919 2.505 11.891 11.891 0 0120.447 3.51a11.844 11.844 0 011.206 15.488 11.895 11.895 0 01-15.186 3.388L0 24.112zm6.78-4.121l.4.237a9.613 9.613 0 0011.626-1.413A9.577 9.577 0 0020.41 7.232a9.595 9.595 0 00-4.634-4.091A9.614 9.614 0 004.46 6.147a9.573 9.573 0 00-1.984 5.85 9.463 9.463 0 001.403 4.967l.25.413-.962 3.574 3.613-.961z" fill="#D72537"/></svg>
                     </button>
                     <p class="lh20-8">Задать вопрос <br>в  мессенджеры</p>
